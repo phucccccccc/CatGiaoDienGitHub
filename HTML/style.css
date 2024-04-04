@@ -1,0 +1,314 @@
+/* reset margin,padding */
+/* 2 thuộc tính này để đè lên các thuộc tính có sẵn để sát lề */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red{
+    border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.banner{
+  height: 500px;
+    background: url("./images/banner.jpg") center center no-repeat   ;
+    padding: 20px;
+  
+}
+
+.about-sign-in{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    
+  
+}
+
+a.about ,a.sign-in{
+    margin-top: 20px;
+    padding: 7px 15px;
+    display: inline-block;
+    text-decoration: none;  
+    text-transform: uppercase;
+    
+
+}
+
+.sign-in {
+   
+   border: 1px solid green;
+   border-radius: 20px;
+    
+}
+
+a.about {
+    margin-right: 60px;
+    margin-left: 25px;
+    
+}
+
+.logo {
+    background: url("./images/hapoERP.png") center center no-repeat   ;
+    margin-top: 40px;
+    height: 100px;
+   
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-start-now{
+    text-align: center;
+
+}
+button{
+    text-transform: uppercase;
+    padding:10px 15px;
+    border: 1px solid green;
+   border-radius: 20px;
+   margin-top: 25px;
+   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+   cursor: pointer;
+}
+
+
+.leftt,.rightt ,.centert {
+    width: 33%;
+    display: inline-block; /* thuộc tính là thể lên cùng 1 hàng */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+span{
+    display: block; /* thuộc tính hạ chữ xuống dưới icon */
+    font-size: 20px;
+}
+
+.conten-cent-img{
+    width: 30px;
+    height: 30px;
+}
+
+.img-conten{
+    display: flex;
+    margin-top: 72px;
+    padding: 0px 15px;
+   
+}
+.img-left img{
+    width: 570px;
+    height: 365px;
+    margin-left: 220px;
+    margin-right: 50px;
+   
+}
+
+.conten-right{ 
+    width: 570px;
+    height: 365px;
+    float: right;
+    margin-right: 220px;
+}
+
+.anh , .chu{
+    display: inline-block;
+}
+
+.anh {
+    height: 36px;
+    width: 36px;
+    margin-top: 14px;
+}
+
+.chu{
+    margin-left: 19px;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+    line-height: 63px;
+}
+p{
+    text-align: justify;
+    line-height: 24px;
+    
+}
+
+.btn-one{
+    text-transform: uppercase;
+    padding:10px 15px;
+    border: 1px solid green;
+   border-radius: 20px;
+   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+   cursor: pointer;
+}
+
+.img-left-one img{
+    width: 570px;
+    height: 365px;
+    margin-right: 220px;
+    margin-left: 50px;
+   
+}
+
+.conten-right-one{ 
+    width: 570px;
+    height: 365px;
+    float: left;
+    margin-left: 220px;
+}
+
+.container{
+   
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    background-color: #53c426;
+}
+
+.row{
+    
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.div-width{
+   width: 110px;
+   height: 184px;
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+ .div-width img{
+    width: 36px;
+    height: 36px;
+    border: 3px solid wheat;
+    border-radius: 60px;
+    padding: 30px;
+    
+ }
+
+ h3{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    
+ }
+
+ .member{
+    display: flex;
+    margin-top: 72px;
+    padding: 0px 15px;
+   
+}
+
+.checkbox img ,.checkbox p{
+    display: inline-block;
+}
+
+.custom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(./images/our-customers.jpg);
+    margin-top: 80px;
+   
+}
+
+.row-two{
+    display: flex !important;
+    margin-top: 40px;
+    
+}
+
+.h-center{
+    margin-left: 600px;
+    color: aliceblue;
+    margin-top: 80px;
+}
+
+.custom-face{
+   margin-left: 93px;
+}
+
+.block-p{
+text-align: center;
+color: wheat;
+width: 804px;
+height: 221px;
+margin-left: 370px;
+margin-top: 70px;
+}
+
+.custom span{
+    
+    color: white;
+}
+.tron {
+    display: flex;
+    margin-left: 660px;
+}
+.bacham{
+    width: 10px;
+    height: 10px;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.backgroud-white{
+    background-color: aliceblue;
+}
+
+.custom span{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+   
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #39474E;
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+.row-width{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.row-width div{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+ .row-width img{
+    width: 96px;
+    height: 29px;
+    margin: 0px 0px 36px;
+ }
+
+ .color-grenn{
+    margin: 0px 0px 36px;
+    color: #53c426;
+ }
+
+ 
